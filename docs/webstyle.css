@@ -12,7 +12,12 @@ ol {list-style-type: lower-alpha;
 padding: 5em;  
 }
 
-h1 {color:#333 }
+h1 {color:#333; text-align:center;}
+p {
+text-indent:50px;
+text-align:left;
+
+}
 img#Avatar { width:500px; height:500px; margin:0px 25px 0px 0px;}
 /*  ebb: These are CSS comments! The following rules style the "picture frame" HTML elements 
  * and help control image size in a way that scales. We made the figure element be 30% of the width of the page.
