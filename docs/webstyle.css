@@ -1,7 +1,7 @@
 
 body {
-background-color: #daedf1;
-color: indigo;
+background-color: #ede2af;
+color: #333;
 font-family: arial, helvetica, sans-serif;
 margin-top: 40px;
 margin-left: 60px;
@@ -12,7 +12,7 @@ ol {list-style-type: lower-alpha;
 padding: 5em;  
 }
 
-h1 {color:#fff }
+h1 {color:#333 }
 img#Avatar { width:500px; height:500px; margin:0px 25px 0px 0px;}
 /*  ebb: These are CSS comments! The following rules style the "picture frame" HTML elements 
  * and help control image size in a way that scales. We made the figure element be 30% of the width of the page.
@@ -22,6 +22,36 @@ img#Avatar { width:500px; height:500px; margin:0px 25px 0px 0px;}
 figure {background-color:lavender; margin:3em; width: 30%;} 
 figcaption {font-style:italic; font-size:.8em;}
 figure img {max-width:300px; width:100%;}
-/* Notice how the last rule is written: figure image {properties} . 
- * The rule above controls the <img> element that is contained inside <figure>. 
- * It does not control the size of the <img> that is not inside a <figure>. */
+
+ul.Menu {
+list-style-type: lower-alpha;
+ padding: 5em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+  /*position: fixed;
+  top: 0;*/
+}
+ul.Menu li {
+  float: left;
+}
+
+ul.Menu li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14.5px;
+}
+
+ul.Menu li a:hover {
+  background-color: #111;
+}
+ul.no-bullets {
+  list-style-type: none;
+}
+ 
